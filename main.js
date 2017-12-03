@@ -1,7 +1,7 @@
 var Main = {};
 
 Main.returnsTrue = function() {
-  return false;
+  return true;
 };
 
 Main.returnsHello = function() {
