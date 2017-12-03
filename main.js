@@ -5,11 +5,11 @@ Main.returnsTrue = function() {
 };
 
 Main.returnsHello = function() {
-  return 'Goodbye';
+  return 'Hello';
 };
 
 Main.returnsTheMeaningOfLife = function(number) {
-  if (number === 41) {
+  if (number >= 41) {
     return 'The meaning of life is clear';
   } else {
     return 'The meaning of life is unclear';
